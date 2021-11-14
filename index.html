@@ -13,12 +13,12 @@
     <script>
 
   // start longest name
- const strings2 = ["Ahmed"," Rahat", "Rakib", "Anwar", "Adil","Abdul gaffar"];
+ var strings2 = ["Ahmed"," Rahat", "Rakib", "Anwar", "Adil","Abdul gaffar"];
 
   function longestString(arr){
-      let result = " ";
+      var result = " ";
       for (let i=0; i < arr.length; i++) {
-          let currentItem = arr[i];
+          var currentItem = arr[i];
           if (currentItem.length > result.length){
               result = arr[i];
 
@@ -28,8 +28,8 @@
 
   }
 
-  //document.write (longestString(strings2));
-  console.log(longestString(strings2)); 
+  document.write (longestString(strings2));
+ // console.log(longestString(strings2)); 
 
 
   // end longest name 
